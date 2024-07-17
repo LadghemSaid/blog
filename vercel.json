@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/_astro/(.*)",
+      "source": "/blog/_astro/(.*)",
       "headers": [
         {
           "key": "Cache-Control",

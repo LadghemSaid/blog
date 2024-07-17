@@ -85,7 +85,9 @@ export default defineConfig({
     remarkPlugins: [readingTimeRemarkPlugin],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
-
+  build: {
+    assets: '/blog/_astro'
+  },
   vite: {
     resolve: {
       alias: {
