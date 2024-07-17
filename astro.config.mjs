@@ -86,7 +86,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   build: {
-    assets: 'blog/_astro'
+    assets: '_astro'
   },
   vite: {
     resolve: {
