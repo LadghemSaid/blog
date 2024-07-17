@@ -86,7 +86,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   build: {
-    assets: '/'
+    assets: ''
   },
   vite: {
     resolve: {
