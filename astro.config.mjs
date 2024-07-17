@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   site: 'https://LadghemSaid.github.io/blog',
-  base: 'blog',
+  base: '/blog',
   output: 'static',
 
   integrations: [
@@ -86,7 +86,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   build: {
-    assets: 'blog',
+    assets: '/blog',
     assetsPrefix: '/blog',
   },
 
