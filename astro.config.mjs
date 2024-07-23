@@ -87,7 +87,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   build: {
-    assets: 'blog',
+    assets: '',
     assetsPrefix: '/blog',
   },
 
