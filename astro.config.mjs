@@ -27,7 +27,7 @@ const whenExternalScripts = (items = []) =>
 export default defineConfig({
   site: 'https://LadghemSaid.github.io/blog',
   base: '/blog',
-  trailingSlash: true,
+  trailingSlash: "always",
   output: 'static',
 
   integrations: [
