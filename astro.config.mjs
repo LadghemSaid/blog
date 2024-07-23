@@ -25,7 +25,7 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: 'https://LadghemSaid.github.io/blog',
+  site: 'https://LadghemSaid.github.io',
   base: '/blog',
   trailingSlash: "always",
   output: 'static',
