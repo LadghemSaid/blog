@@ -66,7 +66,7 @@ export default defineConfig({
           removeAttributeQuotes: false,
         },
       },
-      Image: false,
+      Image: true,
       JavaScript: true,
       SVG: false,
       Logger: 1,
@@ -79,7 +79,7 @@ export default defineConfig({
 
   image: {
     service: squooshImageService(),
-    domains: ['cdn.pixabay.com'],
+    domains: ['cdn.pixabay.com', "la-maryse.fr", "localhost", "*"],
   },
 
   markdown: {
@@ -87,8 +87,7 @@ export default defineConfig({
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   build: {
-    assets: '',
-    assetsPrefix: '/blog',
+    assets: 'blog',
   },
 
   vite: {
